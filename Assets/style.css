@@ -28,6 +28,9 @@
     font-size: 18px;
     color: #757575;
 }
+.text-cente{
+    text-align: center;
+}
 
 .btn-primary{
     background-color: #FD5E0A;
@@ -116,3 +119,6 @@ main{
 .item-description{
     font-weight: 600;
 }
+
+/* Skills Section */
+.
