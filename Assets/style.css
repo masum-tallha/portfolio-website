@@ -22,7 +22,7 @@
     color: white;
     padding: 18px 35px;
     border-radius: 5px;
-    border: n;
+    border: none;
 }
 
 /* Nav Style */
@@ -51,3 +51,33 @@ nav ul{
     text-decoration: none;
     font-size: 20px;
  }
+
+ .header{
+    background-image: url(../Assets/images/developer.png), url(../Assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+ }
+
+ /* Banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;    
+}
+.banner-content{
+    max-width: 580px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.banner-profile-pic{
+    width: 580px;
+}
